@@ -1,0 +1,147 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+header .nav-top
+{
+	display: flex;
+	align-items: center;
+	font-family: Bahnschrift;
+  	background: #201F1F;
+  	height: 8vh;
+  	width: 100%;
+}
+
+header .nav-list 
+{
+	list-style: none;
+	display: flex;
+	margin-bottom: 13px;
+}
+
+.nav-list li 
+{
+	letter-spacing: 2px;
+	margin-left: 30px;
+}
+
+header a 
+{
+	color: #FFF;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+header a:hover
+{
+	color: #B22222;
+}
+
+header .logo
+{
+	display: flex;
+	margin-left: 2%;
+}
+
+header .logo-img
+{
+	height: 40px;
+	padding-right: 15px;
+}
+
+header h1 
+{
+	margin: 0;
+}
+
+header .logo-nome
+{
+	font-size: 24px;
+	letter-spacing: 4px;
+	font-weight: normal;
+	margin-top: 6px;
+}
+
+main
+{
+	background: url("../IMG/bg.png");
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	height: 84vh;
+}
+
+main .conteudo
+{
+	position: absolute;
+	height: 84vh;
+	width: 75%;
+	background-color: #F0F0F0;
+	left: 12.5%;
+	overflow: auto;
+}
+
+main ::-webkit-scrollbar
+{
+	background-color: #201F1F;
+	width: 10px;
+}
+
+main ::-webkit-scrollbar-thumb
+{
+	background-color: gray;
+}
+
+main .conteudo2
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+main .aluno
+{	
+	margin-top: 3%;
+}
+
+main .aluno-img
+{
+	height: 320px;
+	margin-left: 9%;
+}
+
+main .aluno-nome
+{
+	font-size: 57px;
+	color: #AE2F2F;
+	font-family: MS PGothic;
+	text-align: center;
+	margin-top: 2%;
+}
+
+main .sobre
+{
+	margin-top: 7%;
+}
+
+main .sobre-texto
+{
+	font-size: 32px;
+	color: #091D37;
+	font-family: MS PGothic;
+	text-align: center;
+}
+
+
+footer .nav-bottom
+{
+	display: flex;
+	align-items: center;
+  	background: #201F1F;
+  	height: 8vh;
+  	width: 100%;
+  	color: #FFF;
+  	font-family: Bahnschrift;
+  	justify-content: center;
+}

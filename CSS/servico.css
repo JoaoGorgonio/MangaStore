@@ -1,0 +1,212 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+header .nav-top
+{
+	display: flex;
+	align-items: center;
+	font-family: Bahnschrift;
+  	background: #201F1F;
+  	height: 8vh;
+  	width: 100%;
+}
+
+header .nav-list 
+{
+	list-style: none;
+	display: flex;
+	margin-bottom: 13px;
+}
+
+.nav-list li 
+{
+	letter-spacing: 2px;
+	margin-left: 30px;
+}
+
+header a 
+{
+	color: #FFF;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+header a:hover
+{
+	color: #B22222;
+}
+
+header .logo
+{
+	display: flex;
+	margin-left: 2%;
+}
+
+header .logo-img
+{
+	height: 40px;
+	padding-right: 15px;
+}
+
+header h1 
+{
+	margin: 0;
+}
+
+header .logo-nome
+{
+	font-size: 24px;
+	letter-spacing: 4px;
+	font-weight: normal;
+	margin-top: 6px;
+}
+
+main
+{
+	background: url("../IMG/bg.png");
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	height: 84vh;
+}
+
+main .conteudo
+{
+	position: absolute;
+	height: 84vh;
+	width: 75%;
+	background-color: #F0F0F0;
+	left: 12.5%;
+	overflow: auto;
+}
+
+main ::-webkit-scrollbar
+{
+	background-color: #201F1F;
+	width: 10px;
+}
+
+main ::-webkit-scrollbar-thumb
+{
+	background-color: gray;
+}
+
+main .pagina
+{	
+	text-align: center;
+}
+
+main .servicos
+{
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	margin-top: 4%;
+}
+
+main .commerce
+{
+	margin-bottom: 0;
+}
+
+main .imagem-commerce
+{
+	height: 150px;
+}
+
+main .titulo
+{
+	margin-top: 8%;
+}
+
+main .descricao
+{
+	margin-top: 30%;
+}
+
+main .responsivel
+{
+	margin-bottom: 0;
+	margin-left: 3%;
+}
+
+main .imagem-responsivel
+{
+	height: 150px;
+}
+
+main .titulo2
+{
+	margin-top: 1%;
+}
+
+main .descricao2
+{
+	/*se precisar*/
+}
+
+main .seguranca
+{	
+	margin-bottom: 0;
+}	
+
+main .imagem-seguranca
+{
+	height: 150px;
+}
+
+main .titulo3
+{
+	margin-top: 3%;
+}
+
+main .descricao3
+{
+	margin-top: 18%;
+}
+
+main h1
+{
+	margin-top: 2%;
+	font-size: 50px;
+	color: #AE2F2F;
+	font-family: MS PGothic;
+}
+
+main h2
+{
+	margin-top: -3%;
+	font-size: 25px;
+	color: #091D37;
+	font-family: MS PGothic;
+}
+
+main h3
+{
+	font-size: 30px;
+	color: #091D37;
+	font-family: MS PGothic;
+}
+
+main p
+{
+	font-size: 18px;
+	color: #000;
+	font-family: Bahnschrift;
+}
+
+
+footer .nav-bottom
+{
+	display: flex;
+	align-items: center;
+  	background: #201F1F;
+  	height: 8vh;
+  	width: 100%;
+  	color: #FFF;
+  	font-family: Bahnschrift;
+  	justify-content: center;
+}

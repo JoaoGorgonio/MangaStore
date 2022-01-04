@@ -1,0 +1,244 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+header .nav-top
+{
+	display: flex;
+	align-items: center;
+	font-family: Bahnschrift;
+  	background: #201F1F;
+  	height: 8vh;
+  	width: 100%;
+}
+
+header .nav-list 
+{
+	list-style: none;
+	display: flex;
+	margin-bottom: 13px;
+}
+
+.nav-list li 
+{
+	letter-spacing: 2px;
+	margin-left: 30px;
+}
+
+header a 
+{
+	color: #FFF;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+header a:hover
+{
+	color: #B22222;
+}
+
+header .logo
+{
+	display: flex;
+	margin-left: 2%;
+}
+
+header .logo-img
+{
+	height: 40px;
+	padding-right: 15px;
+}
+
+header h1 
+{
+	margin: 0;
+}
+
+header .logo-nome
+{
+	font-size: 24px;
+	letter-spacing: 4px;
+	font-weight: normal;
+	margin-top: 6px;
+}
+
+main
+{
+	background: url("../IMG/bg.png");
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	height: 84vh;
+}
+
+main .conteudo
+{
+	position: absolute;
+	height: 84vh;
+	width: 75%;
+	background-color: #F0F0F0;
+	left: 12.5%;
+	overflow: auto;
+}
+
+main ::-webkit-scrollbar
+{
+	background-color: #201F1F;
+	width: 10px;
+}
+
+main ::-webkit-scrollbar-thumb
+{
+	background-color: gray;
+}
+
+main .conteudo2
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+main .contato
+{
+	margin-right: 40%;
+}
+
+main h1
+{
+	text-align: center;
+	font-size: 50px;
+	color: #AE2F2F;
+	font-family: MS PGothic;
+}
+
+main h2
+{
+	margin-top: -10%;
+	font-weight: 600;
+	font-size: 30px;
+	color: black;
+}
+
+main h3
+{
+	font-size: 35px;
+	color: #AE2F2F;
+	font-family: MS PGothic;
+}
+
+main .topinho
+{
+	margin-top: 14%;
+}
+
+main p
+{
+	font-weight: bold;
+	margin-top: -4%;
+	font-size: 25px;
+	color: #091D37;
+	font-family: MS PGothic;
+}
+
+main .formulario
+{
+	margin-top: 1%;
+	margin-left: -40%;
+	width: 40%;
+	height: 505px;
+	background-color: #201F1F;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.card-top
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main .titulo
+{
+	font-size: 60px;
+	color: white;
+	font-family: MS PGothic;
+}
+
+main .card-group
+{
+	margin-bottom: 4%;
+}
+
+main .card-group > label
+{
+    width: 100%;
+    color: white;
+    font-size: 23px;
+    font-family: MS PGothic;
+    display: block;	/*nao ficar na msm linha*/
+    margin-bottom: 2%;
+}	
+
+main #topinho3
+{
+	margin-top: -4%;
+}
+
+main .card-group > input
+{
+	border-radius: 10px;
+	border-color: #201F1F;
+	border: 1px;
+	width: 90%;
+	height: 20px;
+	outline: 0; 
+	padding: 5px;
+}
+
+main .card-group > textarea
+{
+	border-radius: 10px;
+	border-color: #201F1F;
+	border: 1px;
+	width: 90%;
+	height: 110px;
+	outline: 0; 
+	padding: 5px;
+	font-family: arial;
+}
+
+main .card-group > button
+{
+	width: 90%;
+	height: 40px;
+	border-radius: 10px;
+	text-align: center;
+	border:  none;
+	background-color: #861616;
+	font-size: 25px;
+	font-family: Yu Gothic UI Semibold;
+	color: #FFF;
+	transition-duration: 0.3s;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+main .btn button:hover
+{
+    background-image: linear-gradient(to right, #861616, #dc3545);
+  	color: #FFF;
+  	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);	
+}
+
+footer .nav-bottom
+{
+	display: flex;
+	align-items: center;
+  	background: #201F1F;
+  	height: 8vh;
+  	width: 100%;
+  	color: #FFF;
+  	font-family: Bahnschrift;
+  	justify-content: center;
+}
